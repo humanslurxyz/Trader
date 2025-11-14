@@ -1,0 +1,40 @@
+p{
+  "name": "human-slur-sdk",
+  "version": "1.0.0",
+  "description": "Official SDK for Human Slur AI Agent - Multi-LLM Solana trading intelligence",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "solana",
+    "crypto",
+    "trading",
+    "ai",
+    "mcp",
+    "claude",
+    "gpt4",
+    "llama",
+    "blockchain",
+    "defi"
+  ],
+  "author": "Human Slur",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humanslurxyz/human-slur-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/humanslurxyz/human-slur-sdk/issues"
+  },
+  "homepage": "https://github.com/humanslurxyz/human-slur-sdk#readme"
+}
